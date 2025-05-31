@@ -1,0 +1,110 @@
+for running server:
+
+nodemon server
+
+
+for running react:
+
+npm start
+
+
+so both of the file should run in simultaneously 
+
+DataBases:
+
+Email Address: gaikwadpratham26@gmail.com
+for mongodb:
+local ip address:152.58.237.218/32
+
+user:
+
+name:
+gaikwadpratham26
+
+password:
+Prathaml12
+
+connection url: mongodb+srv://gaikwadpratham26:Prathaml12@cluster1.edf5xnp.mongodb.net/
+
+aggregation command:
+
+group:
+
+{
+  
+    _id: "$fuelType",
+    totalPetrol: { $sum: "$Petrol" },  // Sum of Petrol per group
+    totalCapacity: { $sum: "$capacity" }  // Sum of capacity per group
+  }
+
+db.users.insertOne{[username : "rock" , password : "1234"]}
+
+[
+  {
+    "name": "Toyota Camry",
+    "image": "https://example.com/cars/toyota-camry.jpg",
+    "capacity": 5,
+    "fuelType": "Petrol",
+    "bookedTimeSlots": [
+      {
+        "from": "2023-06-15T09:00:00Z",
+        "to": "2023-06-15T17:00:00Z"
+      }
+    ],
+    "rentPerHour": "25"
+  },
+  {
+    "name": "Honda Civic",
+    "image": "https://example.com/cars/honda-civic.jpg",
+    "capacity": 5,
+    "fuelType": "Hybrid",
+    "bookedTimeSlots": [],
+    "rentPerHour": "22"
+  },
+  {
+    "name": "Ford Mustang",
+    "image": "https://example.com/cars/ford-mustang.jpg",
+    "capacity": 4,
+    "fuelType": "Petrol",
+    "bookedTimeSlots": [
+      {
+        "from": "2023-06-20T10:00:00Z",
+        "to": "2023-06-22T10:00:00Z"
+      }
+    ],
+    "rentPerHour": "45"
+  },
+  {
+    "name": "Tesla Model 3",
+    "image": "https://example.com/cars/tesla-model3.jpg",
+    "capacity": 5,
+    "fuelType": "Electric",
+    "bookedTimeSlots": [],
+    "rentPerHour": "35"
+  },
+  {
+    "name": "Chevrolet Suburban",
+    "image": "https://example.com/cars/chevrolet-suburban.jpg",
+    "capacity": 8,
+    "fuelType": "Diesel",
+    "bookedTimeSlots": [
+      {
+        "from": "2023-06-10T08:00:00Z",
+        "to": "2023-06-12T20:00:00Z"
+      },
+      {
+        "from": "2023-06-18T09:00:00Z",
+        "to": "2023-06-20T18:00:00Z"
+      }
+    ],
+    "rentPerHour": "50"
+  }
+]
+
+sk key:
+
+sk_test_51IYnC0SIR2AbPxU0EiMx1fTwzbZXLbkaOcbc2cXx49528d9TGkQVjUINJfUDAnQMVaBFfBDP5xtcHCkZG1n1V3E800U7qXFmGf
+
+pk key:
+
+pk_test_51IYnC0SIR2AbPxU0TMStZwFUoaDZle9yXVygpVIzg36LdpO8aSG8B9j2C0AikiQw2YyCI8n4faFYQI5uG3Nk5EGQ00lCfjXYvZ
